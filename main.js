@@ -116,17 +116,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadHomePage)\n/* harmony export */ });\n/* harmony import */ var _images_tajine_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/tajine.jpg */ \"./src/images/tajine.jpg\");\n\n\nfunction loadHomePage() {\n    const content = document.querySelector(\"#content\");\n    content.innerHTML = \"\";\n\n    const maintext = document.createElement(\"h2\");\n    maintext.classList.add(\"h2-title\");\n    maintext.textContent = \"From Marrakesh, With Love!\";\n    content.appendChild(maintext);\n\n    const text = document.createElement(\"div\");\n    text.classList.add(\"intro\");\n    text.textContent =\n        \"Each plate is a love letter to Marrakech, its food and its culture, its many varied people, its rich history and its endless eccentricities.\";\n    content.appendChild(text);\n\n    const img = document.createElement(\"img\");\n    img.src = _images_tajine_jpg__WEBPACK_IMPORTED_MODULE_0__;\n    img.alt = \"My Restaurant\";\n    content.appendChild(img);\n}\n\n\n//# sourceURL=webpack:///./src/homepage.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadHomePage)\n/* harmony export */ });\n/* harmony import */ var _images_tajine_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/tajine.png */ \"./src/images/tajine.png\");\n\n\nfunction loadHomePage() {\n    const content = document.querySelector(\"#content\");\n    content.innerHTML = \"\";\n\n    const maintext = document.createElement(\"h2\");\n    maintext.classList.add(\"h2-title\");\n    maintext.textContent = \"From Marrakesh, With Love!\";\n    content.appendChild(maintext);\n\n    const text = document.createElement(\"div\");\n    text.classList.add(\"intro\");\n    text.textContent =\n        \"Each plate is a love letter to Marrakech, its food and its culture, its many varied people, its rich history and its endless eccentricities.\";\n    content.appendChild(text);\n\n    const img = document.createElement(\"img\");\n    img.src = _images_tajine_png__WEBPACK_IMPORTED_MODULE_0__;\n    img.alt = \"My Restaurant\";\n    content.appendChild(img);\n}\n\n\n//# sourceURL=webpack:///./src/homepage.js?");
 
 /***/ }),
 
-/***/ "./src/images/tajine.jpg":
+/***/ "./src/images/tajine.png":
 /*!*******************************!*\
-  !*** ./src/images/tajine.jpg ***!
+  !*** ./src/images/tajine.png ***!
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"2a6dca4145fbedf61a6f.jpg\";\n\n//# sourceURL=webpack:///./src/images/tajine.jpg?");
+eval("module.exports = __webpack_require__.p + \"6db7b219c65acf4466a4.png\";\n\n//# sourceURL=webpack:///./src/images/tajine.png?");
 
 /***/ }),
 
